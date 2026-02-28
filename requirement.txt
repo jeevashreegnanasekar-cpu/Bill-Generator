@@ -1,0 +1,35 @@
+requirements.txt# Core Web Framework
+Flask==3.0.3
+Werkzeug==3.0.4
+
+# Database & Data Processing
+pandas==2.2.3
+openpyxl==3.1.5
+sqlite3  # Built-in with Python
+
+# PDF Generation for Bill Creation
+ReportLab==4.2.2
+reportlab-fonts  # For custom fonts in PDFs
+
+# File Handling & Utilities
+python-dotenv==1.0.1
+Pillow==11.1.0  # Image processing for receipts/proofs
+
+# Frontend Dependencies (if using CDN alternatives)
+# No npm required - Pure Vanilla JS + CSS
+
+# Development & Testing
+Flask-CORS==5.0.0  # For API testing
+pytest==8.3.3  # Unit testing (optional)
+
+# Security (Session Management)
+itsdangerous==2.2.0  # Flask sessions
+cryptography==43.0.3  # File encryption (future)
+
+# Optional: Email/SMS Integration (Hackathon bonus)
+smtplib  # Built-in
+twilio==9.3.0  # SMS (if adding notifications)
+
+# Production Deployment
+gunicorn==23.0.0  # WSGI server🛠️ Installation Commands# Single command install
+pip install -r requirements.txt
